@@ -1,0 +1,6 @@
+/nbproject
+.vagrant
+*~
+.*~
+!.gitkeep
+!.gitignore
