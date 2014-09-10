@@ -10,12 +10,14 @@ node 'ubuntumongo' {
 
     File { owner => 0, group => 0, mode => 0644 }
 
-    # Mongo
+    # Mongo install
+    # This should install mongodb server and client, in the latest mongodb-org version
     class {'::mongodb::globals':
         manage_package_repo => true,
-        server_package_name => 'mongodb-org',
-        nojournal = true
+        server_package_name => 'mongodb-org'
     } ->
-    class {'::mongodb::server': }->
+    class {'::mongodb::server':
+        nojournal => true
+    }->
     class {'::mongodb::client': }
 }
