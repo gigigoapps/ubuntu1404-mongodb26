@@ -14,7 +14,7 @@ This project uses Vagrant to mount and deploy a test environment with Ubuntu 14.
 
 You must have the "vagrant-vbguest" plugin installed before spawm the VM
 
-    $ vagrant plugin-install vagrant-vbguest
+    $ vagrant plugin install vagrant-vbguest
     [...]
 
 ## Do the work
