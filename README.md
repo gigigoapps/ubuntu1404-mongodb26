@@ -61,7 +61,10 @@ Or you can also exec `sudo [command]` commands.
 
 ## Known issues
 
+This MV don't work over "ecryptfs" mounted filesystems
+
+https://bugzilla.redhat.com/show_bug.cgi?id=450867#c8
+
 ---
 
 ## ToDo
-=======
