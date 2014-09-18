@@ -1,4 +1,4 @@
-## Vagrant :: Ubuntu 14.04 + MongoDB 2.6 :: Puppet script ##
+## Vagrant :: Ubuntu 14.04 64 bits + MongoDB 2.6 :: Puppet script ##
 
 node 'ubuntumongo' {
     group { 'puppet': ensure => present }
