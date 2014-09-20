@@ -2,7 +2,7 @@
 
 This project uses Vagrant to mount and deploy a test environment with Ubuntu 14.04 and MongoDB 2.6
 
-## Requisites
+## Initial Requirements
 
 ### You will need:
 
