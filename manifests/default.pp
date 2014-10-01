@@ -4,7 +4,7 @@ node 'ubuntumongo' {
     group { 'puppet': ensure => present }
 
     Exec {
-        path => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/', '/usr/local/bin/', '/usr/local/node/node-default/bin' ],
+        path => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/', '/usr/local/bin/' ],
         logoutput => 'on_failure'
     }
 
