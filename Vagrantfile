@@ -9,6 +9,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config| 
 
     config.vm.box = "puppetlabs/ubuntu-14.04-64-puppet"
+    config.vm.box_version = "1.0.1"
 
     # VM config
     config.vm.define :ubuntumongo do |ubuntumongo|
